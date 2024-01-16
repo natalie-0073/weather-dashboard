@@ -13,13 +13,13 @@
         <h1 class="heading">Weather Dashboard</h1>
         <div class="row">
             <div class="col-4"><h2>Search for a City:</h2>
-                <form action="">
-                    <input type="text">
-                    <input type="submit" value="Search">
+                <form action="" class="form">
+                    <input type="text" class="search-city input-item">
+                    <input type="submit" value="Search" class="button-search input-item">
                 </form>
             <hr>
-            <button>Berlin</button>
-            <button>Paris</button>
+            <button class="btn-example input-item">Berlin</button>
+            <button class="btn-example input-item">Paris</button>
             </div>
             <div class="col-8">
                 <div class="forecast-today">
@@ -29,33 +29,34 @@
                     <p>Humidity: 84%</p>
                 </div>
                 <div class="forecast-week">
-                    <h3>6-Day Forecast</h3>
+                    <h3>5-Day Forecast:</h3>
                     <div class="container">
-                        <div class="row">
-                            <div class="col-2"><p>Temp: -4</p>
+                        <div class="row forecast-content">
+                            <div class="col-2 forecast-box"><p>Temp: -4</p>
                                 <p>Wind: 85</p>
                                 <p>Humidity: 84%</p>
                             </div>
-                            <div class="col-2"><p>Temp: -4</p>
+                            <div class="col-2 forecast-box"><p>Temp: -4</p>
                                 <p>Wind: 85</p>
                                 <p>Humidity: 84%</p></div>
-                            <div class="col-2"><p>Temp: -4</p>
+                            <div class="col-2 forecast-box"><p>Temp: -4</p>
                                 <p>Wind: 85</p>
                                 <p>Humidity: 84%</p></div>
-                            <div class="col-2"><p>Temp: -4</p>
+                            <div class="col-2 forecast-box"><p>Temp: -4</p>
                                 <p>Wind: 85</p>
                                 <p>Humidity: 84%</p></div>
-                            <div class="col-2"><p>Temp: -4</p>
+                            <div class="col-2 forecast-box"><p>Temp: -4</p>
                                 <p>Wind: 85</p>
                                 <p>Humidity: 84%</p></div>
-                            <div class="col-2"><p>Temp: -4</p>
+                            <!-- <div class="col-2 forecast-box"><p>Temp: -4</p>
                                 <p>Wind: 85</p>
-                                <p>Humidity: 84%</p></div>
+                                <p>Humidity: 84%</p></div> -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="assets/script.js"></script>
 </body>
 </html>

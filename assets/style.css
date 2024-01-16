@@ -1,8 +1,41 @@
 .heading{
     text-align: center;
-    background-color: lightpink;
+    background: rgb(51,97,186);
+background: linear-gradient(135deg, rgba(51,97,186,1) 4%, rgba(32,11,78,1) 100%);
     color: #fff;
+    margin-bottom: 40px;
 }
 .forecast-today{
-    
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.input-item{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.button-search{
+    background-color: #5098E6;
+    color: #fff;
+}
+h3{
+    margin-bottom: 20px;
+}
+.btn-example{
+    display: block;
+    background-color: lightgrey;
+    border: none;
+}
+.btn-example:hover{
+    background-color: gray;
+    transition: all .3s;
+}
+.forecast-box{
+    background-color: #2D3E50;
+    color: #fff;
+}
+.forecast-content{
+    column-gap: 10px;
 }
