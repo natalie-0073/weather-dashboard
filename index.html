@@ -23,40 +23,44 @@
             </div>
             <div class="col-8">
                 <div class="forecast-today">
-                    <h2>London 16/01/2024</h2>
-                    <p>Temp: -4</p>
-                    <p>Wind: 85</p>
-                    <p>Humidity: 84%</p>
+                    <h2>London <span class="current-date"></span></h2>
+                    <p>Temp: <span class="today-temp"></span>&deg;C</p>
+                    <p>Wind: <span class="today-wind"></span> KPH</p>
+                    <p>Humidity: <span class="today-humidity"></span>%</p>
                 </div>
                 <div class="forecast-week">
                     <h3>5-Day Forecast:</h3>
                     <div class="container">
                         <div class="row forecast-content">
-                            <div class="col-2 forecast-box"><p>Temp: -4</p>
-                                <p>Wind: 85</p>
-                                <p>Humidity: 84%</p>
+                            <div class="col-2 forecast-box">
+                                <p>Temp: <span class="forecast-temp"></span>&deg;C</p>
+                                <p>Wind: <span class="forecast-wind"></span>KPH</p>
+                                <p>Humidity: <span class="forecast-humidity"></span>%</p>
                             </div>
-                            <div class="col-2 forecast-box"><p>Temp: -4</p>
-                                <p>Wind: 85</p>
-                                <p>Humidity: 84%</p></div>
-                            <div class="col-2 forecast-box"><p>Temp: -4</p>
-                                <p>Wind: 85</p>
-                                <p>Humidity: 84%</p></div>
-                            <div class="col-2 forecast-box"><p>Temp: -4</p>
-                                <p>Wind: 85</p>
-                                <p>Humidity: 84%</p></div>
-                            <div class="col-2 forecast-box"><p>Temp: -4</p>
-                                <p>Wind: 85</p>
-                                <p>Humidity: 84%</p></div>
-                            <!-- <div class="col-2 forecast-box"><p>Temp: -4</p>
-                                <p>Wind: 85</p>
-                                <p>Humidity: 84%</p></div> -->
+                            <div class="col-2 forecast-box">
+                                <p>Temp: <span class="forecast-"></span>&deg;C</p>
+                                <p>Wind: <span class="forecast-wind"></span>KPH</p>
+                                <p>Humidity: <span class="forecast-humidity"></span>%</p></div>
+                            <div class="col-2 forecast-box">
+                                <p>Temp: <span class="forecast-temp"></span>&deg;C</p>
+                                <p>Wind: <span class="forecast-wind"></span>KPH</p>
+                                <p>Humidity: <span class="forecast-humidity"></span>%</p></div>
+                            <div class="col-2 forecast-box">
+                                <p>Temp: <span class="forecast-temp"></span>&deg;C</p>
+                                <p>Wind: <span class="forecast-wind"></span>KPH</p>
+                                <p>Humidity: <span class="forecast-humidity"></span>%</p></div>
+                            <div class="col-2 forecast-box">
+                                <p>Temp: <span class="forecast-temp"></span>&deg;C</p>
+                                <p>Wind: <span class="forecast-wind"></span>KPH</p>
+                                <p>Humidity: <span class="forecast-humidity"></span>%</p></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
     <script src="assets/script.js"></script>
 </body>
 </html>
